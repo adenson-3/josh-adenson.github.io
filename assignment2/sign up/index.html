@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="web-container">
+      <div class="container">
+        <div class="left-side">
+          <img src="/media/Logo.png" alt ="Logo" />
+          <h1>For Individuals</h1>
+          <p>
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+        </div>
+        <div class="right-side">
+          <form action="">
+            <div class="double">
+              <div class="fcard">
+                <label for="fname">First Name</label>
+                <input type="text" placeholder="Tolu" />
+              </div>
+              <div class="fcard">
+                <label for="lname">last Name</label>
+                <input type="text" placeholder="Tolu" />
+              </div>
+            </div>
+
+            <div class="double">
+              <div class="fcard">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                  <option value="" disabled selected>Select here</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="fcard">
+                <label for="lname">Date of Birth</label>
+                <input
+                  type="date"
+                  id="date"
+                  class="date-input"
+                  name="date"
+                  placeholder="Select here"
+                />
+              </div>
+            </div>
+
+            <div class="double">
+              <div class="fcard">
+                <label for="gender">Weight (KG)</label>
+                <input type="text" placeholder="Enter Weight" />
+              </div>
+              <div class="fcard">
+                <label for="lname">Height (CM)</label>
+                <input type="text" placeholder="Enter height here.. " />
+              </div>
+            </div>
+            <div class="password-container">
+              <label for="password" class="password-label"
+                >Activity Level</label
+              >
+
+              <select id="gender" name="gender" class="activity-level">
+                <option value="" disabled selected>Activity Level</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="password-container">
+              <label for="password" class="password-label">Password:</label>
+              <div style="position: relative">
+                <input
+                  type="password"
+                  id="password"
+                  class="password-input"
+                  name="password"
+                />
+                <span class="eye-icon" id="togglePassword">&#128065;</span>
+              </div>
+            </div>
+          </form>
+          <div class="register">
+            <button class="register-button">Register</button>
+          </div>
+          <div class="text">
+            <p class="footer-text ws">
+                By clicking Register, you agree to our
+                <span>Terms of Use</span> and our <span> Privacy Policy </span>
+              </p>
+ 
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
